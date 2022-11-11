@@ -1,0 +1,30 @@
+{
+  "name": "first-nft",
+  "version": "1.0.0",
+  "description": "The source code of my very first NFT, built on top of Hardhat.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algonacci/first-nft.git"
+  },
+  "keywords": [
+    "NFT"
+  ],
+  "author": "Eric Julianto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algonacci/first-nft/issues"
+  },
+  "homepage": "https://github.com/algonacci/first-nft#readme",
+  "devDependencies": {
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
